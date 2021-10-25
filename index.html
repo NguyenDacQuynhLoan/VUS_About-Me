@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link rel='stylesheet' href='https://cdn.rawgit.com/daneden/animate.css/v3.1.0/animate.min.css'>
+    <title></title>
+</head>
+<body>
+    <a href="#" class="menu-toggle rounded" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-right" aria-controls="offcanvas-right" >
+        <i class="fa fa-bars" aria-hidden="true"></i>
+    </a>
+    <div class="offcanvas offcanvas-end" tabindex="-1" aria-labelledby="offcanvas-right-label" id="offcanvas-right">
+        <div class="offcanvas-header">
+            <h5 if="offcanvas-right-label" >Menu</h5>
+            <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"  ></button>
+        </div>
+
+        <div class="offcanvas-body">
+            <ul class="sidebar-nav">
+                <li class="menu1 sidebar-nav-item"><a href="#home">Home</a></li>
+                <li class="menu2 sidebar-nav-item"><a href="#about">About Me</a></li>
+                <li class="menu3 sidebar-nav-item"><a href="#softSkills">Soft Skills</a></li>
+                <li class="menu4 sidebar-nav-item"><a href="#story">My Journey</a></li>                
+                <li class="menu5 sidebar-nav-item"><a href="#portfolio">Portfolio</a></li>
+                <li class="menu6 sidebar-nav-item"><a href="#footer">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- home -->
+    <header class="d-flex align-items-center" id="home">
+        <div class="text-center">
+            <h2 data-wow-delay="0.8s" class="intro-logo wow fadeIn">LOANNGUYEN</h2>
+            <video  src="./img/intro.mp4 "muted loop autoplay></video>
+
+            <div class="overplay"></div>
+
+            <div data-wow-delay="0.8s" class="intro-text wow bounceInDown">
+                <h2>"BETTER LATE</h2>
+                <h2 style="font-size: 3em;">THAN NEVER"</h2>
+                <h5>My background is Japanses language and Culture which is basicly relate to Technology industry. </h5>
+                <a href="" class="btn btn-primary btn-xl">ABOUT ME</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- about -->
+    <section class="d-flex align-items-center" id="about">
+        <div class="container px-4 px-lg-5 ">
+            <div class="my-5">
+                <div class="wow bounceInLeft">
+                    <h2 class="m-1 p-2 border-bottom border-3 border-primary ">SKILLS</h2>
+                    <ul class="mb-5 ">
+                        <li>Programming Languege : Javascript ES6 </li>
+                        <li>HTML5 , SASS/SCSS</li>
+                        <li>Library : Jquery , Bootstrap</li>
+                        <li>Version Control System: Git</li>
+                        <li>UI/UX Tools: Photoshop, Figma</li>
+                    </ul>                </div>
+                <div class="wow bounceInLeft">
+                    <h2  class="m-1 p-2 border-bottom border-3 border-primary">EDUCATION</h2>
+                    <ul class="mb-5" >
+                        <li>Fast track Programming Course-VUS</li>
+                        <li>4th years student of Japanese language & Culture HUFLIT</li>
+                        <li>Certificate : JLPT N3</li>
+                    </ul>
+                </div>
+
+    </section>
+
+    <!-- softSkills -->
+    <section class="d-flex align-items-center" id="softSkills">
+        <div class="container text-center">
+            <div class="section-header">
+                <h4>Service</h4>
+                <h2>What can I do</h2>
+            </div>
+            <div class="row">
+
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <span class="softSkills-icon mx-auto mb-3"><i class="bi bi-phone"></i></span>
+                    <h2>Teamwork ability </h2>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <span class="softSkills-icon mx-auto mb-3"><i class="bi bi-pen"></i></span>
+                    <h2>Standing high pressure at work</h2>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <span class="softSkills-icon mx-auto mb-3"><i class="bi bi-phone"></i></span>
+                    <h2>Arrangement and planning skills</h2>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-5">
+                    <span class="softSkills-icon mx-auto mb-3"><i class="bi bi-hand-thumbs-up"></i
+                    ></span>
+                    <h2>Willing to learn new technologies </h2>
+                </div>
+                
+                
+            </div>
+    </section>
+
+    <!-- story -->
+    <section class="d-flex " id="story">
+        <div class="container pt-3 px-4 px-lg-5 text-center">
+            <h1  data-wow-delay="0.8s" class="mb-1 wow flipInX  "><em> Want to know my journey ? </em></h1>
+            <a href="bonus-story.html"data-wow-delay="0.8s" class="btn btn-primary btn-xl wow bounceIn">Click here</a>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+    <section class="d-flex align-items-center" id="portfolio">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="section-heading">
+            <h4>Portfolio</h4>
+                </div>
+            <h2 class="m-5">Recent project</h2>
+        
+            <div class="row gx-0">
+            <!-- 1 -->
+                <div class="col-lg-6">
+                    <a href="#" class="portfolio-item">
+                    <div class="caption">
+                        <div>Item</div>
+                        <p>Strawberries are such a tasty snack, especially with a little sugar on top!</p>
+                    </div>
+                    <img src="./img/Music-chart.jpg" alt="">
+                    </a>
+                </div>
+
+            <!-- 2 -->
+                <div class="col-lg-6">
+                    <a href="#" class="portfolio-item">
+                    <div class="caption">
+                        <div>COFFEE RECIPES</div>
+                        <p> I made a website helping user more convenient and easier to use and check </p>
+                    </div>
+                    <img src="./img/coffee-recipes.jpg" alt="">
+                </a>
+                </div>
+            <!-- 3 -->
+                <div class="col-lg-6">
+                    <a href="#" class="portfolio-item">
+                        <div class="caption">
+                            <div>MISCENDENCE STORE</div>
+                            <p>My first project : I used HTML, CSS, Javascript to build a basic website selling clothes.It has Home page, Product detail, Cart, Women & Men clothing list and Blog</p>
+                        </div>
+                        <img src="./img/shoppingclothes.jpg" alt="">
+                    </a>
+                </div>
+            <!-- 4 -->
+                <div class="col-lg-6">
+                    <a href="#" class="portfolio-item">
+                    <div class="caption">
+                        <div>Item</div>
+                        <p>A yellow workspace with some scissors, pencils, and other objects.</p>
+                    </div>
+                    <img src="./img/Angular-shoppingcart.jpg" alt="">
+                    </a>
+                </div>
+               
+            </div>
+        </div>
+    </section>
+
+
+    <!-- footer -->
+    <section class="d-flex align-items-center" id="footer">
+        <div class="container px-4 px-lg-5 text-center">
+            <div class="my-5">
+                <h2 class="text-light">Contact Me</h2>
+                <div data-wow-delay="0.5s" class="wow fadeInUp footer-icon m-5"><a href="mailto:loannguyen1456@gmail.com"><i class="bi bi-envelope-fill"></i></a></div>
+                <div data-wow-delay="0.8s"class="wow fadeInUp footer-icon m-5"><a href="https://www.linkedin.com/in/loan-nguyen-b082b61a3/"><i class="bi bi-linkedin"></i></a></div>
+                <div data-wow-delay="1.1s"class="wow fadeInUp footer-icon m-5"><a href="https://github.com/NgDacQuynhLoan?tab=repositories"><i class="bi bi-github"></i></a></div>
+            </div>
+
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+    <script src='https://cdn.rawgit.com/matthieua/WOW/1.0.1/dist/wow.min.js'></script>    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        new WOW().init();
+        
+        $('.menu1').click(function(){
+            $('html').animate({
+                scrollTop:$('#home').offset().top
+            });
+            return false;
+        })
+        $('.menu2').click(function(){
+            $('html').animate({
+                scrollTop:$('#about').offset().top
+            });
+            return false;
+        })
+        $('.menu3').click(function(){
+            $('html').animate({
+                scrollTop:$('#softSkills').offset().top
+            });
+            return false;
+        })
+        $('.menu4').click(function(){
+            $('html').animate({
+                scrollTop:$('#story').offset().top
+            });
+            return false;
+        })
+        $('.menu5').click(function(){
+            $('html').animate({
+                scrollTop:$('#portfolio').offset().top
+            });
+            return false;
+        })
+        $('.menu6').click(function(){
+            $('html').animate({
+                scrollTop:$('#footer').offset().top
+            });
+            return false;
+        })
+    </script>
+
+</body>
+</html>
